@@ -38,6 +38,9 @@
                 <a class="nav-link" href="/educator.php">Educator</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/discography.php">Discography</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="mailto:whitfordguitar@gmail.com">Contact</a>
             </li>
         </ul>
