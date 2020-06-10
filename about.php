@@ -1,7 +1,5 @@
 <?php include 'includes/header.php'; ?>
 
-<!-- banner -->
-
 <div class="container-fluid relative m-0 p-0" data-aos="fade">
   <!-- banner -->
   <?php 
@@ -9,7 +7,8 @@
   $shapeBig="bg-github shape-diamond-lg";
   $shapeSmall="bg-success shape-diamond-sm bg--img-about";
   $pageTitle="About.";
-  include './includes/components/page_banner_component.php'; ?>
+  include './includes/components/page_banner_component.php'; 
+  ?>
   
   <div class="row relative bg-black p-5">
     <!-- shapes -->
