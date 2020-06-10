@@ -35,9 +35,8 @@
         <div class="absolute z--1 left top bg-success shape-parallelo-sm rellax" data-rellax-speed="2"></div>
         <h1 class="display-1 w-25 text-left mb-5 font-weight-bold hr-thick" data-aos="fade">Music.</h1>
 
-        <!-- <iframe class="min-500 w-100 shadow-lg" scrolling="no" frameborder="no" allow="autoplay" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/112441897&color=%2314cfa0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>    -->
-
-        <iframe class="min-500 w-100 shadow-lg" scrolling="no" id="hearthis_at_user_neil-whitford" width="100%" height="350" src="https://app.hearthis.at/neil-whitford/embed/?hcolor=14cfa0" frameborder="0" allowtransparency></iframe>    
+        <iframe class="min-500 w-100 shadow-lg" scrolling="no" frameborder="no" allow="autoplay" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/112441897&color=%2314cfa0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>   
+   
       </div>
       <!-- pagination -->
       <a class="d-inline" href="/about.php">

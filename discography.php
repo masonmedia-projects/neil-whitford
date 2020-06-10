@@ -27,8 +27,8 @@
 
       <!-- pagination -->
       <?php 
-      $prevUrl="/educator.php";
-      $nextUrl="/index.php";
+      $prevUrl="/educator";
+      $nextUrl="/index";
       include './includes/components/pagination.php'; 
       ?>
   </div>
