@@ -19,19 +19,19 @@
     <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left min-50 text-light p-4 my-4 rellax"
       data-rellax-speed="-1">
 
-      <?php include './includes/components/disco_component.php'; ?>
+        <?php include './includes/components/disco_component.php'; ?>
 
-      <div class="absolute z--1 right bottom bg-github shape-diamond-lg rellax" data-rellax-speed="1"></div>
-      <div class="absolute z--1 right bottom bg-success shape-diamond-sm rellax" data-rellax-speed="2"></div>
-    </div>
+        <div class="absolute z--1 right bottom bg-github shape-diamond-lg rellax" data-rellax-speed="1"></div>
+        <div class="absolute z--1 right bottom bg-success shape-diamond-sm rellax" data-rellax-speed="2"></div>
+      </div>
 
-    <?php 
-    $prevUrl="/educator.php";
-    $nextUrl="/index.php";
-    include './includes/components/pagination.php'; ?>
-    
+      <!-- pagination -->
+      <?php 
+      $prevUrl="/educator.php";
+      $nextUrl="/index.php";
+      include './includes/components/pagination.php'; 
+      ?>
   </div>
-
 </div>
 <!--end container-->
 

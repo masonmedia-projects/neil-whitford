@@ -382,6 +382,12 @@ a:hover {
     text-shadow: 2px 2px 5px #000;
 }
 
+/* discography */
+
+#disco_item li:first-of-type {
+    line-height: 100%;
+}
+
 .stroke-grey {
     -webkit-text-stroke: 2px darkslategrey;
     color: transparent;
@@ -411,7 +417,6 @@ a:hover {
 .link-underline {
     background-image: url(https://www.protaxaccounting.co.uk/wp-content/uploads/2015/03/Underline-5-Blue.png);
     background-image: url(https://ceabbrasil.com.br/blog/wp-content/plugins/squeeze-page/images/highlight.png);
-    /* background-image: url(https://peoplepng.com/wp-content/uploads/2019/07/highlight-png-12-Free-Png-Transparent-Images.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
