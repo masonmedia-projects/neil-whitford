@@ -1,0 +1,22 @@
+<div class="row min-700 min--100 relative bg--img-about p-5 m-0 text-light">
+      <!-- shapes -->
+      <?php 
+      $shapeBig="bg-github shape-diamond-lg";
+      $shapeSmall="bg-success shape-diamond-sm";
+      include './includes/components/shape_top_component.php'
+      ?>
+      <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
+        <h1 class="display-1 text-github font-weight-bold absolute z-0 m-0" data-aos="fade-down">About.</h1>
+        <h1 class="display-1 text-dark font-weight-bold absolute z-0 m-0" data-aos="fade-up">About.</h1>
+        <h1 class="display-1 text-behance font-weight-bold absolute z-0 m-0" data-aos="zoom-in">About.</h1>
+        <h1 class="display-1 font-weight-bold m-0" data-aos="fade-right">About.</h1>
+      </div>
+      <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
+        <p class="h3 border-left pl-3" data-aos="fade-down" data-aos-duration="800">Neil Whitford is a prolific guitarist, producer and dedicated music professional from Toronto, Ontario</p>
+        <a href="/about.php" data-aos="flip-up" data-aos-duration="800">
+            <button class="btn btn-lg btn-outline-light rounded-0 mt-3">
+                <span class="h5">Read more</span>  
+            </button>  
+        </a>
+      </div>
+    </div>

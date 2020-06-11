@@ -15,19 +15,21 @@ include 'includes/header.php'; ?>
   ?>
   <div class="row relative bg-black text-light p-5">
     <!-- shapes -->
-    <?php 
+    <!-- <?php 
     $shapeBig="bg-dark shape-circle-lg";
     $shapeSmall="bg-github shape-circle-sm";
     include './includes/components/shape_top_component.php'
-    ?>
+    ?> -->
     <!-- cols -->
     <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left min-50 p-4 my-4 rellax" data-rellax-speed="-1">
       <!-- disco items component -->
         <?php include './includes/components/disco_component.php'; ?>
         <!-- shapes bottom -->
-        <?php 
+
+        <!-- THESE ARE CAUSING scroll probs - try putting in disco_component? -->
+        <!-- <?php 
         include './includes/components/shape_bottom_component.php'
-        ?>
+        ?> -->
     </div>
 
       <!-- pagination -->

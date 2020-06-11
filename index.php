@@ -26,27 +26,15 @@ include 'includes/header.php'; ?>
 
     <!-- about -->
 
-    <div class="row min-700 min--100 relative bg--img-about p-5 m-0 text-light">
-      <!-- shapes -->
-      <?php 
-      $shapeBig="bg-github shape-diamond-lg";
-      $shapeSmall="bg-success shape-diamond-sm";
-      include './includes/components/shape_top_component.php'
-      ?>
-      <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-        <h1 class="display-1 font-weight-bold m-0" data-aos="fade-right">
-          <span class="d-inline-block" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-in-out-back">A</span><span class="d-inline-block" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">b</span><span class="d-inline-block" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out-back">o</span><span class="d-inline-block" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out-back">u</span><span class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">t</span>
-        </h1>
-      </div>
-      <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-        <p class="h3 border-left pl-3" data-aos="fade-down" data-aos-duration="800">Neil Whitford is a prolific guitarist, producer and dedicated music professional from Toronto, Ontario</p>
-        <a href="/about.php" data-aos="flip-up" data-aos-duration="800">
-            <button class="btn btn-lg btn-outline-light rounded-0 mt-3">
-                <span class="h5">Read more</span>  
-            </button>  
-        </a>
-      </div>
-    </div>
+    <?php
+    $sectionBg="bg--img-about";
+    $shapeBig="bg-github shape-diamond-lg";
+    $shapeSmall="bg-success shape-diamond-sm";
+    $sectionTitle="About.";
+    $sectionText="Neil Whitford is a prolific guitarist, producer and dedicated music professional from Toronto, Ontario";
+    $sectionLink="/about";
+    include 'includes/components/home_banner_component.php';
+    ?>
 
     <!-- guitarist -->
 
