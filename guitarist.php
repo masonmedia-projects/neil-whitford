@@ -7,7 +7,7 @@ include 'includes/header.php'; ?>
     <!-- banner -->
     <?php 
     $rowClass="bg--img-guitarist";
-    $shapeBig="bg-success shape-parallelo-lg";
+    $shapeBig="bg-github shape-parallelo-lg";
     $shapeSmall="bg-dribble shape-parallelo-sm bg--img-guitarist";
     $pageTitle="Guitarist.";
     include './includes/components/page_banner_component.php'; 
@@ -16,7 +16,7 @@ include 'includes/header.php'; ?>
     <div class="row relative bg-black text-light p-5">
       <!-- shapes -->
       <?php 
-      $shapeBig="bg-success shape-parallelo-lg";
+      $shapeBig="bg-github shape-parallelo-lg";
       $shapeSmall="bg-dribble shape-parallelo-sm";
       include './includes/components/shape_top_component.php'
       ?>
@@ -41,7 +41,7 @@ include 'includes/header.php'; ?>
         </p>
         <!-- shapes -->
         <?php 
-        $shapeBig="bg-success shape-parallelo-lg";
+        $shapeBig="bg-github shape-parallelo-lg";
         $shapeSmall="bg-dribble shape-parallelo-sm";
         include './includes/components/shape_bottom_component.php'
         ?>
@@ -49,11 +49,11 @@ include 'includes/header.php'; ?>
       <!-- player -->
       <div class="col-sm-12 relative min-500 rellax" data-rellax-speed="1">
         <?php 
-        $shapeBig="bg-success shape-parallelo-lg";
+        $shapeBig="bg-github shape-parallelo-lg";
         $shapeSmall="bg-dribble shape-parallelo-sm";
         include './includes/components/shape_top_component.php'
         ?>
-        <h1 class="display-1 w-25 text-left mb-5 font-weight-bold hr-thick" data-aos="fade">Music.</h1>
+        <h1 class="display-1 text-left mb-4 font-weight-bold" data-aos="fade">Music.</h1>
         <iframe class="min-500 w-100 shadow-lg relative" scrolling="no" frameborder="no" allow="autoplay" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/112441897&color=%2314cfa0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>   
       </div>
       <!-- pagination -->
