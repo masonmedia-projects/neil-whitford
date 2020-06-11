@@ -1,31 +1,34 @@
 <?php 
+$navId="disco";
 $navClass="bg-black navbar-dark";
 include 'includes/header.php'; ?>
 
-<!-- banner -->
-
 <div class="container-fluid relative m-0 p-0" data-aos="fade">
-    <div class="row m-0 bg--img-home-hero text-light">
-        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start relative min-700 min--100 p-5">
-            <h1 class="display-1 font-weight-bold m-0 tracking-in-expand rellax" data-rellax-speed="-2">Discography.</h1>
-        </div>
-    </div>
-  </div>
 
+<!-- banner -->
+  <?php 
+  $rowClass="bg--img-disco";
+  $shapeBig="bg-success shape-circle-lg";
+  $shapeSmall="shape-circle-sm bg--img-disco";
+  $pageTitle="Discography.";
+  include './includes/components/page_banner_component.php'; 
+  ?>
   <div class="row relative bg-black p-5">
     <!-- shapes -->
-    <div class="absolute z-0 left bg-dark shape-diamond-lg rellax" data-rellax-speed="1"></div>
-    <div class="absolute z-0 left bg-github shape-diamond-sm rellax" data-rellax-speed="2"></div>
-
+    <?php 
+    $shapeBig="bg-dark shape-diamond-lg";
+    $shapeSmall="bg-github shape-diamond-sm";
+    include './includes/components/shape_top_component.php'
+    ?>
     <!-- cols -->
-    <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left min-50 text-light p-4 my-4 rellax"
-      data-rellax-speed="-1">
-
+    <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left min-50 text-light p-4 my-4 rellax" data-rellax-speed="-1">
+      <!-- disco items component -->
         <?php include './includes/components/disco_component.php'; ?>
-
-        <div class="absolute z--1 right bottom bg-github shape-diamond-lg rellax" data-rellax-speed="1"></div>
-        <div class="absolute z--1 right bottom bg-success shape-diamond-sm rellax" data-rellax-speed="2"></div>
-      </div>
+        <!-- shapes bottom -->
+        <?php 
+        include './includes/components/shape_bottom_component.php'
+        ?>
+    </div>
 
       <!-- pagination -->
       <?php 

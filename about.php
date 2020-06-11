@@ -13,7 +13,6 @@ include 'includes/header.php'; ?>
   $pageTitle="About.";
   include './includes/components/page_banner_component.php'; 
   ?>
-  
   <div class="row relative bg-black p-5">
     <!-- shapes -->
     <?php 
