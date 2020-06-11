@@ -46,7 +46,6 @@ include 'includes/header.php'; ?>
         include './includes/components/shape_bottom_component.php'
         ?>
       </div>
-
       <!-- player -->
       <div class="col-sm-12 relative min-500 rellax" data-rellax-speed="1">
         <?php 
