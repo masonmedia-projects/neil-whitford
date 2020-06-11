@@ -6,14 +6,14 @@ include 'includes/header.php'; ?>
 <!-- banner -->
 
 <div class="container-fluid relative m-0 p-0" data-aos="fade">
-    <div class="row min-700 min--100 relative p-5 m-0 bg--img-educator">
-        <div class="absolute z-0 left bg-warning shape-triangle-lg rellax" data-rellax-speed="1"></div>
-        <div class="absolute z-0 left bg-behance shape-triangle-sm bg--img-educator rellax" data-rellax-speed="2"></div>
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-            <h1 class="display-1 font-weight-bold m-0 tracking-in-expand text-light rellax" data-rellax-speed="-2"> Educator.</h1>
-        </div>
-        <div class="offset-lg-6"></div>
-    </div>
+    <!-- banner -->
+    <?php 
+    $rowClass="bg--img-educator text-light";
+    $shapeBig="bg-github shape-triangle-lg";
+    $shapeSmall="bg-behance shape-triangle-sm bg--img-educator";
+    $pageTitle="Educator.";
+    include './includes/components/page_banner_component.php'; 
+    ?>
 
     <div class="row relative bg-gradient-white p-5">
         <!-- shapes -->
