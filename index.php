@@ -2,7 +2,7 @@
 $navClass="bg-black navbar-dark";
 include 'includes/header.php'; ?>
 
-  <div class="container-fluid m-0 p-0">
+  <div class="container-fluid m-0 p-0" >
 
     <div class="row min-700-lg min--100 bg--img-home-hero p-5 m-0 text-light">
       <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start rellax">
@@ -33,7 +33,7 @@ include 'includes/header.php'; ?>
         </h1>
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-        <p class="h3 border-left pl-3" data-aos="fade-down" data-aos-duration="800">Neil Whitford is a prolific guitarist and multi-genre composer, songwriter and producer from Toronto, Ontario</p>
+        <p class="h3 border-left pl-3" data-aos="fade-down" data-aos-duration="800">Neil Whitford is a prolific guitarist, producer and dedicated music professional from Toronto, Ontario</p>
         <a href="/about.php" data-aos="flip-up" data-aos-duration="800">
             <button class="btn btn-lg btn-outline-light rounded-0 mt-3">
                 <span class="h5">Read more</span>  
@@ -57,7 +57,7 @@ include 'includes/header.php'; ?>
         </h1>
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-        <p class="h3 border-left pl-3" data-aos="fade-down">Neil Whitford is a prolific guitarist and multi-genre composer, songwriter and producer from Toronto, Ontario</p>
+        <p class="h3 border-left pl-3" data-aos="fade-down">Neil performs, records and tours with dozens of artists in many genres across Canada and several other countries.</p>
         <a href="/guitarist.php" data-aos="fade-up">
           <button class="btn btn-lg btn-outline-light rounded-0 mt-3">
               <span class="h5">Read more</span>  
@@ -81,7 +81,7 @@ include 'includes/header.php'; ?>
         </h1>
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-        <p class="h3 border-left border-light pl-3" data-aos="fade-down">Neil Whitford is a prolific guitarist and multi-genre composer, songwriter and producer from Toronto, Ontario</p>
+        <p class="h3 border-left border-light pl-3" data-aos="fade-down">Neil has produced many full length recording projects for artists and has many programming, editing and mixing credits.</p>
         <a href="/producer.php" data-aos="flip-up">
           <button class="btn btn-lg btn-outline-light rounded-0 mt-3">
               <span class="h5">Read more</span>  
@@ -105,7 +105,7 @@ include 'includes/header.php'; ?>
         </h1>
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-        <p class="h3 border-left pl-3" data-aos="fade-down">Neil Whitford is a prolific guitarist and multi-genre composer, songwriter and producer from Toronto, Ontario</p>
+        <p class="h3 border-left pl-3" data-aos="fade-down">Neil has been a music educator for individuals and groups for over a decade. He owns and operates the Oakwood Guitar School in Toronto.</p>
         <a href="/educator.php" data-aos="fade-up">
             <button class="btn btn-lg btn-outline-light rounded-0 mt-3">
                 <span class="h5">Read more</span>  
@@ -129,7 +129,7 @@ include 'includes/header.php'; ?>
         </h1>
       </div>
       <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start">
-        <p class="h3 border-left pl-3" data-aos="fade-down">Collection of work with samples from performance, production, mixing, and composition credits.</p>
+        <p class="h3 border-left pl-3" data-aos="fade-down">An archive of work with samples from performance, production, mixing, and composition credits.</p>
         <a href="/discography.php" data-aos="fade-up">
           <button class="btn btn-lg btn-outline-light rounded-0 mt-3">
               <span class="h5">Read more</span>  

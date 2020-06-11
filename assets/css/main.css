@@ -313,7 +313,7 @@ a:hover {
 }
 
 .bg--img-disco {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/908965/pexels-photo-908965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/img/nw_disco.jpeg) center;
     background-size: cover;
 }
 

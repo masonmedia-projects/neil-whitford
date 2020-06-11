@@ -23,8 +23,7 @@ include 'includes/header.php'; ?>
         include './includes/components/shape_top_component.php'
         ?>
         <!-- main text -->
-        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left min-500 p-4 mt-4 mb-0 rellax"
-            data-rellax-speed="-1">
+        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left min-500 p-4 mt-4 mb-0 rellax" data-rellax-speed="-1">
             <h2 class="display-3 text-lowercase font-weight-bold bg-black" data-aos="fade">
                 educator <span class="text-behance display-3 font-weight-bold">↘</span>
             </h2>

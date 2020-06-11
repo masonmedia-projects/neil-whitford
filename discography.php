@@ -13,15 +13,15 @@ include 'includes/header.php'; ?>
   $pageTitle="Discography.";
   include './includes/components/page_banner_component.php'; 
   ?>
-  <div class="row relative bg-black p-5">
+  <div class="row relative bg-black text-light p-5">
     <!-- shapes -->
     <?php 
-    $shapeBig="bg-dark shape-diamond-lg";
-    $shapeSmall="bg-github shape-diamond-sm";
+    $shapeBig="bg-dark shape-circle-lg";
+    $shapeSmall="bg-github shape-circle-sm";
     include './includes/components/shape_top_component.php'
     ?>
     <!-- cols -->
-    <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left min-50 text-light p-4 my-4 rellax" data-rellax-speed="-1">
+    <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start text-left min-50 p-4 my-4 rellax" data-rellax-speed="-1">
       <!-- disco items component -->
         <?php include './includes/components/disco_component.php'; ?>
         <!-- shapes bottom -->
