@@ -1,12 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-black">
+<nav class="navbar navbar-expand-lg fixed-top <?php echo $navClass; ?>">
     <a class="navbar-brand" href="/index.php">
-        <span class="text-success">n</span>w
+        <span class="text-success <?php echo $logoClass; ?>">n</span>w
     </a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
-        <!-- <span class="navbar-toggler-icon"></span> -->
         <span class="icon-bar top-bar"></span>
-	<span class="icon-bar middle-bar"></span>
-	<span class="icon-bar bottom-bar"></span>		
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>		
     </button>
     <div class="collapse navbar-collapse" id="navbarDark">
         <ul class="navbar-nav ml-auto">

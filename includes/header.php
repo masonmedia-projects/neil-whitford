@@ -28,5 +28,5 @@
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  <?php include 'includes/nav.php'; ?>
   <main id="swup" class="transition-fade">
+    <?php include 'includes/nav.php'; ?>

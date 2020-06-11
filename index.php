@@ -1,4 +1,6 @@
-<?php include 'includes/header.php'; ?>
+<?php 
+$navClass="bg-black navbar-dark";
+include 'includes/header.php'; ?>
 
   <div class="container-fluid m-0 p-0">
 
@@ -22,7 +24,6 @@
       <div class="absolute z-0 left bg-github shape-diamond-lg rellax" data-rellax-speed="1"></div>
       <div class="absolute z-0 left bg-success shape-diamond-sm rellax" data-rellax-speed="2"></div>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-        <!-- <h1 class="display-1 font-weight-bold m-0" data-aos="fade-right" data-aos-duration="800">About.</h1> -->
         <h1 class="display-1 font-weight-bold m-0" data-aos="fade-right">
           <span class="d-inline-block" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-in-out-back">A</span><span class="d-inline-block" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">b</span><span class="d-inline-block" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out-back">o</span><span class="d-inline-block" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out-back">u</span><span class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">t</span>
         </h1>
@@ -113,7 +114,7 @@
         </h1>
       </div>
       <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start">
-        <p class="h3 border-left pl-3" data-aos="fade-down">Samples from performance, production, mixing, and composition credits.</p>
+        <p class="h3 border-left pl-3" data-aos="fade-down">Collection of work with samples from performance, production, mixing, and composition credits.</p>
         <a href="/discography.php" data-aos="fade-up">
           <button class="btn btn-lg btn-outline-light rounded-0 mt-3">
               <span class="h5">Read more</span>  

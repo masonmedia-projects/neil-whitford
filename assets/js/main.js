@@ -51,10 +51,11 @@ function whitfordJS() {
       });
 
       AOS.init({
-        duration: 500, // values from 0 to 3000, with step 50ms
+        offset: 0, // offset (in px) from the original trigger point
         anchorPlacement: 'top-top', 
         easing: 'ease-in-out-cubic',
-        easing: 'ease-in-out-sine'
+        easing: 'ease-in-out-back',
+        duration: 1000
       });
 
     // slick slider  

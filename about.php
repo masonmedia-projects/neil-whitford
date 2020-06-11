@@ -1,4 +1,7 @@
-<?php include 'includes/header.php'; ?>
+<?php 
+$navClass="bg-success navbar-dark";
+$logoClass="text-github";
+include 'includes/header.php'; ?>
 
 <div class="container-fluid relative m-0 p-0" data-aos="fade">
   <!-- banner -->

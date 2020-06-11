@@ -113,6 +113,7 @@ body {
     overflow-x: hidden;
     width: 100%;
     max-width: 1500px;
+    background: #000;
 }
 
 h1,
@@ -509,20 +510,22 @@ a:hover {
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     opacity: 1;
-    /* opacity: 1;
-    -webkit-transition: .5s;
-    transition: .5s;
-    -webkit-transition-delay: .4s;
-    transition-delay: .4s;
-    transition-delay: .4s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out; */
 }
 
 html.is-animating .transition-fade {
     opacity: 0;
 }
 
+.transition-fadeInDown {
+    transition: all 0.5s ease-in-out;
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  html.is-animating .transition-fadeInDown {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
 
 /* animations */
 

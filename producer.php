@@ -1,4 +1,6 @@
-<?php include 'includes/header.php'; ?>
+<?php 
+$navClass="bg-cream navbar-light";
+include 'includes/header.php'; ?>
 
 <!-- banner -->
 

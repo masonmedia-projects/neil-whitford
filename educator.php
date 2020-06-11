@@ -1,4 +1,6 @@
-<?php include 'includes/header.php'; ?>
+<?php 
+$navClass="bg-behance navbar-dark";
+include 'includes/header.php'; ?>
 
 <!-- banner -->
 
