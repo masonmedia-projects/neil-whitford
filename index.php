@@ -7,7 +7,7 @@ include 'includes/header.php'; ?>
     <div class="row min-700-lg min--100 bg--img-home-hero p-5 m-0 text-light">
       <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start rellax">
         <span class="display-1 mb-2 stroke-white bounce-in-top">
-            <img src="assets/img/icons8-rock-music_white.png" alt="">
+            <img src="assets/img/icons8-rock-music_white.png" alt="Neil Whitford">
         </span>
         <h1 style="line-height: 75%;" class="display-2 font-weight-bold m-0 text-focus-in">Neil <span class="text-success">Whitford</span>
         </h1>  
@@ -21,8 +21,12 @@ include 'includes/header.php'; ?>
     <!-- about -->
 
     <div class="row min-700 min--100 relative bg--img-about p-5 m-0 text-light">
-      <div class="absolute z-0 left bg-github shape-diamond-lg rellax" data-rellax-speed="1"></div>
-      <div class="absolute z-0 left bg-success shape-diamond-sm rellax" data-rellax-speed="2"></div>
+      <!-- shapes -->
+      <?php 
+      $shapeBig="bg-github shape-diamond-lg";
+      $shapeSmall="bg-success shape-diamond-sm";
+      include './includes/components/shape_top_component.php'
+      ?>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
         <h1 class="display-1 font-weight-bold m-0" data-aos="fade-right">
           <span class="d-inline-block" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-in-out-back">A</span><span class="d-inline-block" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">b</span><span class="d-inline-block" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out-back">o</span><span class="d-inline-block" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out-back">u</span><span class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">t</span>
@@ -41,8 +45,12 @@ include 'includes/header.php'; ?>
     <!-- guitarist -->
 
     <div class="row min-700 min--100 relative bg--img-guitarist p-5 m-0 text-light">
-      <div class="absolute z-0 left bg-success shape-parallelo-lg rellax" data-rellax-speed="1"></div>
-      <div class="absolute z-0 left bg-dribble shape-parallelo-sm rellax" data-rellax-speed="2"></div>
+      <!-- shapes -->
+      <?php 
+      $shapeBig="bg-github shape-parallelo-lg";
+      $shapeSmall="bg-dribble shape-parallelo-sm";
+      include './includes/components/shape_top_component.php'
+      ?>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
         <h1 class="display-1 font-weight-bold m-0" data-aos="fade-right">
           <span class="d-inline-block" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-in-out-back">G</span><span class="d-inline-block" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">u</span><span class="d-inline-block" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out-back">i</span><span class="d-inline-block" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out-back">t</span><span class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">a</span><span class="d-inline-block" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-in-out-back">r</span><span class="d-inline-block" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-out-back">i</span><span class="d-inline-block" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out-back">s</span><span class="d-inline-block" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">t</span>
@@ -60,18 +68,22 @@ include 'includes/header.php'; ?>
 
     <!-- producer -->
 
-    <div class="row min-700 min--100 relative bg--img-producer p-5 m-0 text-dark">
-      <div class="absolute z-0 left bg-dribble shape-square-lg rellax" data-rellax-speed="1"></div>
-      <div class="absolute z-0 left bg-cream shape-square-sm rellax" data-rellax-speed="2"></div>
+    <div class="row min-700 min--100 relative bg--img-producer p-5 m-0 text-light">
+      <!-- shapes -->
+      <?php 
+      $shapeBig="bg-github shape-square-lg";
+      $shapeSmall="bg-gradient-red-orange shape-square-sm";
+      include './includes/components/shape_top_component.php'
+      ?>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
         <h1 class="display-1 font-weight-bold m-0" data-aos="fade-right">
           <span class="d-inline-block" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-in-out-back">P</span><span class="d-inline-block" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">r</span><span class="d-inline-block" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out-back">o</span><span class="d-inline-block" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out-back">d</span><span class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">u</span><span class="d-inline-block" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-in-out-back">c</span><span class="d-inline-block" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-out-back">e</span><span class="d-inline-block" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out-back">r</span>
         </h1>
       </div>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-        <p class="h3 border-left border-dark pl-3" data-aos="fade-down">Neil Whitford is a prolific guitarist and multi-genre composer, songwriter and producer from Toronto, Ontario</p>
+        <p class="h3 border-left border-light pl-3" data-aos="fade-down">Neil Whitford is a prolific guitarist and multi-genre composer, songwriter and producer from Toronto, Ontario</p>
         <a href="/producer.php" data-aos="flip-up">
-          <button class="btn btn-lg btn-outline-dark rounded-0 mt-3">
+          <button class="btn btn-lg btn-outline-light rounded-0 mt-3">
               <span class="h5">Read more</span>  
           </button>  
         </a>
@@ -81,8 +93,12 @@ include 'includes/header.php'; ?>
     <!-- educator  -->
     
     <div class="row min-700 min--100 relative bg--img-educator p-5 m-0 text-light">
-      <div class="absolute z-0 left bg-warning shape-triangle-lg rellax" data-rellax-speed="1"></div>
-      <div class="absolute z-0 left bg-behance shape-triangle-sm rellax" data-rellax-speed="2"></div>
+      <!-- shapes -->
+      <?php 
+      $shapeBig="bg-github shape-triangle-lg";
+      $shapeSmall="bg-behance shape-triangle-sm";
+      include './includes/components/shape_top_component.php'
+      ?>
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
         <h1 class="display-1 font-weight-bold m-0" data-aos="fade-right">
           <span class="d-inline-block" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-in-out-back">E</span><span class="d-inline-block" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">d</span><span class="d-inline-block" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out-back">u</span><span class="d-inline-block" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out-back">c</span><span class="d-inline-block" data-aos="zoom-in-right" data-aos-duration="800" data-aos-easing="ease-in-out-back">a</span><span class="d-inline-block" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-in-out-back">t</span><span class="d-inline-block" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-out-back">o</span><span class="d-inline-block" data-aos="fade" data-aos-duration="800" data-aos-easing="ease-in-out-back">r</span>
@@ -101,10 +117,9 @@ include 'includes/header.php'; ?>
     <!-- disco  -->
     
     <div class="row min-700 min--100 relative bg--img-disco p-5 m-0 text-light">
-
     <!-- shapes -->
     <?php 
-    $shapeBig="bg-success shape-circle-lg";
+    $shapeBig="bg-github shape-circle-lg";
     $shapeSmall="bg-dribble shape-circle-sm";
     include './includes/components/shape_top_component.php'
     ?>

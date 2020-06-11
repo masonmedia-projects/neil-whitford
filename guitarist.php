@@ -48,6 +48,7 @@ include 'includes/header.php'; ?>
       </div>
       <!-- player -->
       <div class="col-sm-12 relative min-500 rellax" data-rellax-speed="1">
+        <!-- shapes -->
         <?php 
         $shapeBig="bg-github shape-parallelo-lg";
         $shapeSmall="bg-dribble shape-parallelo-sm";
