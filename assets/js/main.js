@@ -53,7 +53,6 @@ function whitfordJS() {
       AOS.init({
         offset: 0, // offset (in px) from the original trigger point
         anchorPlacement: 'top-top', 
-        easing: 'ease-in-out-cubic',
         easing: 'ease-in-out-back',
         duration: 1000
       });

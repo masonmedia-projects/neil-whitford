@@ -1,9 +1,6 @@
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 
-#redirect html to php: https://stackoverflow.com/questions/5990240/redirect-all-html-extensions-to-php
-RewriteRule ^(.*)\.html$ $1.php [L]
-
 #remove .php extension
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]

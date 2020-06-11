@@ -2,19 +2,25 @@
 $navClass="bg-black navbar-dark";
 include 'includes/header.php'; ?>
 
-  <div class="container-fluid m-0 p-0" >
+  <div class="container-fluid m-0 p-0" data-aos="fade">
 
     <div class="row min-700-lg min--100 bg--img-home-hero p-5 m-0 text-light">
       <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start rellax">
-        <span class="display-1 mb-2 stroke-white bounce-in-top">
+        <span class="display-1 mb-2 stroke-white" data-aos="zoom-in-down" data-aos-delay="400">
             <img src="assets/img/icons8-rock-music_white.png" alt="Neil Whitford">
         </span>
-        <h1 style="line-height: 75%;" class="display-2 font-weight-bold m-0 text-focus-in">Neil <span class="text-success">Whitford</span>
+        <h1 
+        style="line-height: 75%;" 
+        class="display-2 font-weight-bold m-0" 
+        data-aos="fade">Neil <span class="text-success" >Whitford</span>
         </h1>  
         <h1 style="line-height: 75%;" class="display-2 font-weight-bold m-0">
-        <span class="d-table text-focus-in">Guitarist.</span>
-        <span class="d-table text-focus-in">Producer.</span> 
-        <span class="d-table text-focus-in">Educator.</span> </h1> 
+        <span class="d-table" data-aos="fade-down"
+        data-aos-delay="100">Guitarist.</span>
+        <span class="d-table" data-aos="fade-right"
+        data-aos-delay="200">Producer.</span> 
+        <span class="d-table" data-aos="fade-up"
+        data-aos-delay="300">Educator.</span> </h1> 
       </div>
     </div>
 
