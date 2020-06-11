@@ -1,4 +1,5 @@
 <?php 
+$navId="educator";
 $navClass="bg-behance navbar-dark";
 include 'includes/header.php'; ?>
 

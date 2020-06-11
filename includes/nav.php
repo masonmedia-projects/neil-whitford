@@ -1,4 +1,6 @@
-<nav class="navbar navbar-expand-lg fixed-top <?php echo $navClass; ?>">
+<nav 
+id="<?php echo $navId; ?>"
+class="navbar navbar-expand-lg fixed-top transition-fadeInDown <?php echo $navClass; ?>">
     <a class="navbar-brand" href="/index.php">
         <span class="text-success <?php echo $logoClass; ?>">n</span>w
     </a>

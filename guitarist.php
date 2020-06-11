@@ -1,4 +1,5 @@
 <?php 
+$navId="guitarist";
 $navClass="bg-dribble navbar-dark";
 include 'includes/header.php'; ?>
 
@@ -24,15 +25,19 @@ include 'includes/header.php'; ?>
         <h2 class="display-3 text-lowercase font-weight-bold bg-black text-light" data-aos="fade">
           Guitarist <span class="text-dribble display-3 font-weight-bold">↘</span>
         </h2>
-        <hr class="hr-big bg-light">
-        <p class="h2 font-weight-bold relative z-1">
-        <span class="bg-black" data-aos="fade">A diverse, multi-genre guitarist and composer, Neil has performed and toured with national and international acts including <a href="https://chloecharles.bandcamp.com/" target="_blank">Chloe Charles,</a> <a href="https://www.candicesand.com/" target="_blank">Candice Sand,</a> and Eurovision 2016 winner <a href="http://www.rykka.com/" target="_blank">Rykka,</a> and has dozens of writing and recording credits.
-        </span>
         <hr class="hr-big bg-light" data-aos="fade-right">
-        <span class="h2 bg-black" data-aos="fade">Neil holds a diploma in Music from Grant MacEwan University and a BA in Music Performance from University of Toronto. He has been a sought-after freelancer in a wide range of genres spanning rock, jazz, blues, funk, top-40 and more with over a decade of professional playing experience.
-        </span>
+        <p class="h2 font-weight-bold relative z-1" data-aos="fade">
+          <span class="bg-black">A diverse, multi-genre guitarist and composer, Neil has performed and toured with national and international acts including <a href="https://chloecharles.bandcamp.com/" target="_blank">Chloe Charles,</a> <a href="https://www.candicesand.com/" target="_blank">Candice Sand,</a> and Eurovision 2016 winner <a href="http://www.rykka.com/" target="_blank">Rykka,</a> and has dozens of <a href="/discography.php">writing and recording credits</a>.
+          </span>
+        </p>
         <hr class="hr-big bg-light" data-aos="fade-right">
-        <span class="h2 bg-black" data-aos="fade">He has played hundreds of shows with dozens of artists as a sideman and creative collaborator.  Neil can also hire groups including jazz duo or trio, rock and pop cover band or other groups for a variety of events and occasions.</span>
+        <p class="h2 font-weight-bold relative z-1" data-aos="fade">
+          <span class="bg-black">Neil holds a diploma in Music from Grant MacEwan University and a BA in Music Performance from University of Toronto. He has been a sought-after freelancer in a wide range of genres spanning rock, jazz, blues, funk, top-40 and more with over a decade of professional playing experience.
+          </span>
+        </p>
+        <hr class="hr-big bg-light" data-aos="fade-right">
+        <p class="h2 font-weight-bold relative z-1" data-aos="fade">
+          <span class="bg-black">He has played hundreds of shows with dozens of artists as a sideman and creative collaborator.  Neil can also hire groups including jazz duo or trio, rock and pop cover band or other groups for a variety of events and occasions.</span>
         </p>
         <!-- shapes -->
         <?php 

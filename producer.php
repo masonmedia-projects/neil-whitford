@@ -1,4 +1,5 @@
 <?php 
+$navId="producer";
 $navClass="bg-cream navbar-light";
 include 'includes/header.php'; ?>
 

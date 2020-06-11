@@ -928,6 +928,9 @@ nav-item {
 
 /* mobile menu
  */
+
+ /* hamburger base styles */
+
 .icon-bar {
     width: 22px;
     height: 2px;
@@ -937,6 +940,16 @@ nav-item {
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
     margin-top: 4px
+}
+
+#about .icon-bar,
+#producer .icon-bar {
+    background-color: #000;
+}
+
+#guitarist .icon-bar,
+#educator .icon-bar {
+    background-color: #fff;
 }
 
 .navbar-toggler {
@@ -978,7 +991,6 @@ nav-item {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #14CFA0;
     color: #fff;
 }
 
