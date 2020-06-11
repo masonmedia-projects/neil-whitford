@@ -21,7 +21,7 @@
           <a href="https://www.instagram.com/whitfordguitar/" target="_blank">
             <h2>instagram</h2>
           </a>
-          <a href="mailto:whitfordguitar@gmail.com">
+          <a href="mailto:neil@neilwhitford.com">
               <h2>email</h2>       
           </a>
       </div>
