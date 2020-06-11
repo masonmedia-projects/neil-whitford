@@ -42,7 +42,7 @@ class="navbar navbar-expand-lg fixed-top transition-fadeInDown <?php echo $navCl
                 <a class="nav-link" href="/discography.php">Discography</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="mailto:whitfordguitar@gmail.com">Contact</a>
+                <a class="nav-link" href="mailto:neil@neilwhitford.com">Contact</a>
             </li>
         </ul>
     </div>
