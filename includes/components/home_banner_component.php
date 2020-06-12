@@ -9,10 +9,13 @@
     <h1 class="display-1 text-github font-weight-bold absolute z-0 m-0" data-aos="fade-down">
       <?php echo $sectionTitle; ?>
     </h1>
-    <h1 class="display-1 text-dark font-weight-bold absolute z-0 m-0" data-aos="fade-up">
+    <h1 class="display-1 text-light font-weight-bold absolute z-0 m-0" data-aos="zoom-in-up">
       <?php echo $sectionTitle; ?>
     </h1>
     <h1 class="display-1 text-github font-weight-bold absolute z-0 m-0" data-aos="zoom-in">
+      <?php echo $sectionTitle; ?>
+    </h1>
+    <h1 class="display-1 font-weight-bold absolute z-0 m-0 <?php echo $accentColor; ?>" data-aos="zoom-in-left">
       <?php echo $sectionTitle; ?>
     </h1>
     <h1 class="display-1 font-weight-bold m-0" data-aos="fade-right">
@@ -20,7 +23,10 @@
     </h1>
   </div>
   <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-    <p class="h3 border-left pl-3" data-aos="fade-down" data-aos-duration="800">
+    <p 
+    class="h3 border-left pl-3 mb-3 mt-0" 
+    data-aos="fade-down" 
+    data-aos-duration="800">
       <?php echo $sectionText; ?>
     </p>
     <a href="<?php echo $sectionLink?>.php" data-aos="fade-up" data-aos-duration="800">
