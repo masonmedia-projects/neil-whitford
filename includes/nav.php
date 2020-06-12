@@ -1,7 +1,7 @@
 <nav 
 id="<?php echo $navId; ?>"
 class="navbar navbar-expand-lg fixed-top transition-fadeInDown <?php echo $navClass; ?>">
-    <a class="navbar-brand" href="/index.php">
+    <a class="navbar-brand" href="/">
         <span class="text-success <?php echo $logoClass; ?>">n</span>w
     </a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
