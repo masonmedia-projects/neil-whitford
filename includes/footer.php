@@ -1,17 +1,14 @@
 <div class="container-fluid relative bg-black">
     <div class="row px-3 pt-3 pb-0 min-300">
-      <!-- <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-start p-4 shadow">
-          <h1 class="display-1 text-light font-weight-bold"><span class="text-success">n</span>w</h1>
-      </div> -->
       <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-start p-4">
-        <a href="http://www.oakwoodguitarschool.com/" target="_blank">
-            <h2>guitar</h2>
+        <a href="/guitarist.php" target="_blank">
+            <h2>guitarist</h2>
         </a>
-        <a href="https://soundcloud.com/whitfordguitar" target="_blank">
-            <h2>production</h2>
+        <a href="/producer.php" target="_blank">
+            <h2>producer</h2>
         </a>
-        <a href="https://soundbetter.com/profiles/8883-neil-whitford" target="_blank">
-            <h2>education</h2>
+        <a href="/educator.php" target="_blank">
+            <h2>educator</h2>
         </a>
       </div>
       <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-start text-left p-4">

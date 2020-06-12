@@ -4,17 +4,18 @@ $navClass="bg-gradient-red-orange navbar-dark";
 include 'includes/header.php'; ?>
 
 <div class="container-fluid relative m-0 p-0" data-aos="fade">
-  <!-- banner
+  <!-- banner-->
   <?php 
   $rowClass="bg--img-producer text-light";
   $shapeBig="bg-github shape-square-lg";
   $shapeSmall="shape-square-sm bg--img-producer";
   $pageTitle="Producer.";
   include './includes/components/page_banner_component.php'; 
-  ?> -->
+  ?>
 
-  <div class="row bg--img-producer min-400 text-light relative p-5 m-0">
-    <!-- shapes -->
+  <!-- <div class="row bg--img-producer min-400 text-light relative p-5 m-0">
+    
+    shapes
     <?php 
     $shapeBig="bg-github shape-square-lg";
     $shapeSmall="shape-square-sm bg--img-producer";
@@ -25,7 +26,7 @@ include 'includes/header.php'; ?>
         Producer.
       </h1>
     </div>
-  </div>
+  </div> -->
 
 
   <div class="row relative bg-black text-light p-5">

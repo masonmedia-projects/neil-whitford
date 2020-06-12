@@ -17,18 +17,6 @@ class="navbar navbar-expand-lg fixed-top transition-fadeInDown <?php echo $navCl
             <li class="nav-item">
                 <a class="nav-link" href="/about.php">About</a>
             </li>
-            <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Services
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Design</a>
-                    <a class="dropdown-item" href="#">Programming</a>
-                    <a class="dropdown-item" href="#">Consulting</a>
-                    <a class="dropdown-item" href="#">Hosting</a>
-                    <a class="dropdown-item" href="#">Editing</a>
-                </div>
-            </li> -->
             <li class="nav-item">
                 <a class="nav-link" href="/guitarist.php">Guitarist</a>
             </li>

@@ -388,8 +388,6 @@ a:hover {
     line-height: 100%;
 }
 
-/* text */
-
 .drop-shadow {
     -webkit-filter: drop-shadow(3px 3px 2px rgba(0,0,0,.7));
     filter: drop-shadow(3px 3px 2px rgba(0,0,0,.7));
@@ -508,6 +506,97 @@ a:hover {
 .shape-diamond-sm {
     height: 300px;
     width: 300px;
+}
+
+/* banner dividers */
+
+.custom-shape-divider-bottom-1591984784 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1591984784 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1591984784 .shape-fill {
+    fill: #000000;
+}
+
+/* angle */
+
+.custom-shape-divider-bottom-1591985341 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1591985341 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1591985341 .shape-fill {
+    fill: #000000;
+}
+
+/* arrow down big */
+
+.custom-shape-divider-bottom-1591986895 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1591986895 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1591986895 .shape-fill {
+    fill: #000000;
+}
+
+/* arrow down small */
+
+.custom-shape-divider-bottom-1591986748 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1591986748 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 77px;
+}
+
+.custom-shape-divider-bottom-1591986748 .shape-fill {
+    fill: #000000;
 }
 
 /* swup animation transitions */
