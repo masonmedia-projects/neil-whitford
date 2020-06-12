@@ -956,6 +956,11 @@ html.is-animating .transition-fadeInDown {
 
 /* menu/nav */
 
+.navbar-nav, 
+.nav-item {
+    font-size: 18px;
+}
+
 .nav-link,
 nav-item {
     font-weight: bold;

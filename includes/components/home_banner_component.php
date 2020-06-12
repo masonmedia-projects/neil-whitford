@@ -24,7 +24,7 @@
   </div>
   <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start">
     <p 
-    class="h3 border-left pl-3 mb-3 mt-0" 
+    class="h3 border-left pl-3 my-3" 
     data-aos="fade-down" 
     data-aos-duration="800">
       <?php echo $sectionText; ?>

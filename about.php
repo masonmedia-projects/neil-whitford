@@ -28,8 +28,10 @@ include 'includes/header.php'; ?>
         <span class="text-success display-3 font-weight-bold">↘</span>
       </h2>
       <hr class="hr-big bg-light" data-aos="fade-right">
-      <p class="h2 font-weight-bold bg-black" data-aos="fade">
+      <p class="h2 font-weight-bold relative z-1" data-aos="fade">
+        <span class="bg-black">
         Neil Whitford is a prolific guitarist and multi-genre composer, songwriter and producer from Toronto, Ontario who has been highly involved in the local independent music scene for nearly a decade. Neil hails from the small town of Medicine Hat, Alberta, and received a diploma in Music from Grant MacEwan University and his BA in Music Performance from University of Toronto.
+        </span>
       </p>
       <hr class="hr-big bg-light" data-aos="fade-right">
       <p class="h2 font-weight-bold relative z-1" data-aos="fade">
