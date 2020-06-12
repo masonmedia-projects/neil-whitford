@@ -39,8 +39,7 @@ include 'includes/header.php'; ?>
             </p>
             <hr class="hr-big bg-light" data-aos="fade-right">
             <p class="h2 font-weight-bold relative z-1" data-aos="fade">
-                <span class="bg-black">Lessons are offered at $40 for one hour, $31 for 45-minutes, and $22 for 30-minutes. Group and ensemble lessons can also be arranged upon request.</span>
-                <span class="bg-black" data-aos="fade">Children and adults of all levels and abilities are welcome! Students younger than 8 years might not be ready for learning guitar yet. It is best for us to meet your child in order to make a decision. Regardless of age, your first lesson is a no-cost, risk free trial.</span>
+                <span class="bg-black">Lessons are offered at $40 for one hour, $31 for 45-minutes, and $22 for 30-minutes. Group and ensemble lessons can also be arranged upon request. Children and adults of all levels and abilities are welcome! Students younger than 8 years might not be ready for learning guitar yet. It is best for us to meet your child in order to make a decision. Regardless of age, your first lesson is a no-cost, risk free trial.</span>
             </p>
             <!-- shapes bottom -->
             <?php 
