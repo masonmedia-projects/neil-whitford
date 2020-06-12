@@ -25,7 +25,7 @@ class="row relative min-700 min--100 text-light relative p-5 m-0 <?php echo $row
     </svg>
   </div> -->
   <div 
-  class="display-4 font-weight-light drop-shadow align-self-center mx-auto d-none d-lg-block" 
+  class="display-4 font-weight-light align-self-center mx-auto d-none d-lg-block" 
   style="margin-bottom: -50px"
   data-aos="zoom-in-down">↓</div>
   <!-- arrow down small -->
