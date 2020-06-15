@@ -34,5 +34,4 @@ class="row relative min-700 min--100 text-light relative p-5 m-0 <?php echo $row
         <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
     </svg>
   </div>
-
 </div>

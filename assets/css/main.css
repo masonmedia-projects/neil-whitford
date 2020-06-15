@@ -599,6 +599,14 @@ a:hover {
     fill: #000000;
 }
 
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1592185322 svg {
+        width: calc(111% + 1.3px);
+        height: 62px;
+    }
+}
+
 /* swup animation transitions */
 
 .transition-fade {
