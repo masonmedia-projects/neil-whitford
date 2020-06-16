@@ -1,60 +1,22 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Page Not Found</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
+<?php 
+$navId="404";
+$navClass="bg-black navbar-dark";
+include 'includes/header.php'; ?>
 
-        * {
-            line-height: 1.2;
-            margin: 0;
-        }
+<div class="container-fluid relative m-0 p-0" data-aos="fade">
+<!-- banner -->
+    <div class="row min-700-lg min--100 bg--img-home-hero p-5 m-0 text-light">
+      <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center rellax">
+        <span class="display-1 mb-2" data-aos="zoom-in-down" data-aos-delay="400">
+            <img src="assets/img/icons8-rock-music_white.png" alt="Neil Whitford">
+        </span>
+        <h1 
+        style="line-height: 75%;" 
+        class="display-2 font-weight-bold m-0" 
+        data-aos="fade-up"><span class="text-success">Page not found.</span>
+        </h1>  
+      </div>
+    </div>
+</div><!--end container-->
 
-        html {
-            color: #888;
-            display: table;
-            font-family: sans-serif;
-            height: 100%;
-            text-align: center;
-            width: 100%;
-        }
-
-        body {
-            display: table-cell;
-            vertical-align: middle;
-            margin: 2em auto;
-        }
-
-        h1 {
-            color: #555;
-            font-size: 2em;
-            font-weight: 400;
-        }
-
-        p {
-            margin: 0 auto;
-            width: 280px;
-        }
-
-        @media only screen and (max-width: 280px) {
-
-            body, p {
-                width: 95%;
-            }
-
-            h1 {
-                font-size: 1.5em;
-                margin: 0 0 0.3em;
-            }
-
-        }
-
-    </style>
-</head>
-<body>
-    <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
-</body>
-</html>
-<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
+<?php include 'includes/footer.php'; ?>
