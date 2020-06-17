@@ -43,9 +43,9 @@
         <a href="https://www.gigsalad.com/neil_whitford_toronto" target="_blank">
             <h2>gig salad</h2>
         </a>
-      </div>
-      
+      </div> 
     </div>
+    <!-- copyright -->
     <p class="text-light font-weight-bold text-center pb-5 m-0">
         © Neil Whitford 
         <span class="text-success">
