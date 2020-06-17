@@ -33,3 +33,4 @@ PHP is used for reusable header and footer component.
 ## **.htaccess**
 
 1. Simple .htaccess rewrites are employed to remove `.php` extensions for pretty urls.
+2. The production site removes all .php file extensions for pretty urls, though this repo leaves extensions in so the local dev server will function.
