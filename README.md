@@ -38,3 +38,4 @@ PHP is used for reusable header and footer component.
     - `nav.php`
     - `pagination.php`
     - `home_banner_component.php`
+    - `footer.php`
