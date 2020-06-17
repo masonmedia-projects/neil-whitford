@@ -1041,16 +1041,6 @@ html.is-animating .transition-fadeInDown {
     pointer-events: none;
 }
 
-
-/* slick slider */
-
-.slick-prev:before,
-.slick-next:before {
-    color: red !important;
-    display: none;
-}
-
-
 /* menu/nav */
 
 .navbar-nav, 
@@ -1151,6 +1141,10 @@ nav-item {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("http://bighornsheepband.com/img/bhs-whitford-3.jpg") center;
         background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://bighornsheepband.com/img/bhs-whitford-3.jpg") center;
         background-size: cover;
+    }
+
+    .bg--img-home-hero {
+        background-position: center top;
     }
 
     .home-title-bg {
