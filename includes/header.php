@@ -12,7 +12,6 @@
   <meta itemprop="name" content="Neil Whitford">
   <meta itemprop="description" content="Neil Whitford is a prolific guitarist, producer and dedicated music professional from Toronto, Ontario.">
   <meta itemprop="image" content="http://neilwhitford.com/assets/img/neil_whitford_home_ss.png">
-  <!-- fb and tw og tags -->
   <?php include 'header_social.php'; ?>
   <meta name="robots" content="index,follow"><!-- All Search Engines -->
   <meta name="googlebot" content="index,follow"><!-- Google Specific -->
