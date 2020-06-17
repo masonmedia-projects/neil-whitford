@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="site.webmanifest">
   <!-- <link rel="apple-touch-icon" href="icon.png"> -->
-  <link rel="icon" href="/favicon.ico?v=1.1"> 
+  <link rel="icon" href="/neil_favicon.png?v=1.1"> 
   <link href="https://fonts.googleapis.com/css?family=Anton|Gayathri:400,700&display=swap" rel="stylesheet">
   <!-- Add the slick-theme.css if you want default styling -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
