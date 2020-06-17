@@ -73,7 +73,7 @@ include 'includes/header.php'; ?>
     $sectionTitle="Educator.";
     $accentColor="text-behance";
     $sectionText="Neil has been a music educator for individuals and groups for over a decade. He owns and operates the Oakwood Guitar School in Toronto.";
-    $sectionLink="/producer";
+    $sectionLink="/educator";
     include 'includes/components/home_banner_component.php';
     ?>
     
