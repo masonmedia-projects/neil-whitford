@@ -1,4 +1,5 @@
-<ul id="disco_item" class="list-unstyled w-100 border-top border-light py-2">
+<ul id="disco_item" class="list-unstyled w-100 border-top border-light py-2"
+data-aos="fade-up">
     <li class="display-4 font-weight-bold text-lowercase mt-2">
         <?php echo $artist; ?> <span>&#10095;</span>
         <span class="text-success"><?php echo $album; ?></span> <span>&#10095;</span>
