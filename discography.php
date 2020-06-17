@@ -35,7 +35,7 @@ include 'includes/header.php'; ?>
       <!-- pagination -->
       <?php 
       $prevUrl="/educator";
-      $nextUrl="/index";
+      $nextUrl="/";
       include './includes/components/pagination.php'; 
       ?>
   </div>
