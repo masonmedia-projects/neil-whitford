@@ -6,7 +6,7 @@
   <title><?php $title; ?></title>
   <meta name="description" content="Neil Whitford is a prolific guitarist, producer and dedicated music professional from Toronto, Ontario.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="manifest" href="site.webmanifest">
+  <!-- <link rel="manifest" href="site.webmanifest"> -->
   <!-- <link rel="apple-touch-icon" href="icon.png"> -->
   <link rel="icon" href="/neil_favicon.png?v=1.1"> 
   <meta itemprop="name" content="Neil Whitford">
