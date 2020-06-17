@@ -2,7 +2,7 @@
 
 The website of Toronto musician, guitarist, composer, producer and educator Neil Whitford.
 
-For more information see [jaxx.io](https://neilwhitford.com).
+For more information see [neilwhitford.com](https://neilwhitford.com).
 
 ## **SWUP**
 
