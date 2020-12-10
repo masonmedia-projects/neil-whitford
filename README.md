@@ -1,5 +1,9 @@
 # **Neil Whitford**
 
+<img src="img/neil_whitford_browser_ss.png"
+     alt="janicemasonsteeves.com homepage banner photo"
+     style="width: 100%; float: left; margin: 0 auto;" />
+
 The website of Toronto musician, guitarist, composer, producer and educator Neil Whitford.
 
 For more information see [neilwhitford.com](https://neilwhitford.com).
