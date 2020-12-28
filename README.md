@@ -1,7 +1,5 @@
 # **Neil Whitford**
 
-![neilwhitford.com homepage banner photo](assets/img/neil_whitford_browser_ss.png)
-
 <img src="assets/img/neil_whitford_browser_ss.png"
      alt="neilwhitford.com homepage banner photo"
      style="width: 100%; float: left; margin: 0 auto;" />
