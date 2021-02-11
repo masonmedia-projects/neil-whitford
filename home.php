@@ -2,21 +2,6 @@
 
   <div class="container-fluid m-0 p-0">
 
-  <!-- banner 1 -->
-<!-- 
-  <div class="row p-0 m-0 min-100">
-      <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center">
-      <img class="img-full absolute left top z--1" src="http://bighornsheepband.com/img/bhs-whitford-3.jpg" alt="">
-        <h1 class="text-focus-in font-weight-bold">neilwhitford</h1>
-        <h2 class="text-focus-in text-light font-weight-light">Guitarist | Producer | Educator</h2>     
-        <h1 class="display-4">
-          <i class="fa fa-long-arrow-down mt-3 bounce-in-top text-success"></i>
-        </h1>
-      </div>
-    </div> -->
-
-    
-
     <div class="row min-700 min--100 p-5 m-0 min-100 text-light" style="background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(http://neilw22.github.io/neilwhitford/images/neil_front.jpg) center bottom; background-size: cover;">
       <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start rellax">
         <span class="display-1 stroke-white bounce-in-top">

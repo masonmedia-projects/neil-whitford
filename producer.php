@@ -13,22 +13,6 @@ include 'includes/header.php'; ?>
   include './includes/components/page_banner_component.php'; 
   ?>
 
-  <!-- <div class="row bg--img-producer min-400 text-light relative p-5 m-0">
-    
-    shapes
-    <?php 
-    $shapeBig="bg-github shape-square-lg";
-    $shapeSmall="shape-square-sm bg--img-producer";
-    include './includes/components/shape_top_component.php'
-    ?>
-    <div class="col-lg-12 d-flex flex-column justify-content-center align-items-start">
-      <h1 class="display-1 font-weight-bold m-0 tracking-in-expand" data-rellax-speed="-2">
-        Producer.
-      </h1>
-    </div>
-  </div> -->
-
-
   <div class="row relative bg-black text-light p-5">
     <!-- shapes -->
     <?php 

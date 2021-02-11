@@ -13,22 +13,10 @@ html {
     width: 100%;
 }
 
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
 }
-
 
 /*
  * A better looking default horizontal rule
@@ -265,13 +253,8 @@ a:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("http://neilw22.github.io/neilwhitford/images/neil_front.jpg") 100% 10%;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("http://bighornsheepband.com/img/bhs-whitford-3.jpg") center;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://bighornsheepband.com/img/bhs-whitford-3.jpg") center;
-    /* background: url("/assets/img/neil_particle_background.png") center repeat; */
-    /* background: url("https://thumbs.gfycat.com/HomelyBewitchedItaliangreyhound-size_restricted.gif") center repeat; */
     background: url(https://media0.giphy.com/media/DA2BsY1MiSW5O/source.gif) center;
     background-size: cover;
-    /* background-attachment: fixed; */
-    /* -webkit-animation: bg-pan-left 8s both;
-	        animation: bg-pan-left 8s both; */
 }
 
 .bg--img-home-hero {
