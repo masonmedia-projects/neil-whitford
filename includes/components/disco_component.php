@@ -1,4 +1,31 @@
 <?php 
+$artist="Jessica Pearson and the East Wind";
+$album="On The Line";
+$year="2021";
+$credits="Producer, Guitars, Mixing Engineer";
+$link="https://www.jessicapearsoneastwind.com/";
+include 'disco_item.php'; 
+?>
+
+<?php 
+$artist="Brenda Simmons";
+$album="Resound of Heaven, This is Why We Worship, Love Runs Deep";
+$year="2021";
+$credits="Producer, All instrumentation, Recording and Mix Engineer";
+$link="";
+include 'disco_item.php'; 
+?>
+
+<?php 
+$artist="Brodie Christ";
+$album="From Squeezing";
+$year="2021";
+$credits="Producer, Guitars, Keys, Mixing Engineer, Recording Engineer";
+$link="https://www.youtube.com/watch?v=k-YegeiqK54";
+include 'disco_item.php'; 
+?>
+
+<?php 
 $artist="Vivienne Wilder";
 $album="Postromantic";
 $year="2020";
