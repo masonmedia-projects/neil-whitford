@@ -1,4 +1,40 @@
 <?php 
+$artist="Jenna Nation";
+$album="Brand New Ex";
+$year="2022";
+$credits="Vocal Producer, Mixing Engineer";
+$link="https://www.youtube.com/watch?v=OAodmg7sIvQ";
+include 'disco_item.php'; 
+?>
+
+<?php 
+$artist="Echlo";
+$album="Soul Savant, Beat Drops";
+$year="2022";
+$credits="Producer, Vocal Producer, Songwriter";
+$link="https://www.youtube.com/watch?v=wJOiNu3gbRc";
+include 'disco_item.php'; 
+?>
+
+<?php 
+$artist="Vivienne Wilder and the Vice Presidents";
+$album="I Don't Believe";
+$year="2022";
+$credits="Producer, Vocal Producer, Guitars";
+$link="https://open.spotify.com/track/1whFpcfJDPSbqzewzjXPmi?si=8b3b422c283a44d8&nd=1";
+include 'disco_item.php'; 
+?>
+
+<?php 
+$artist="Candice Sand";
+$album="Forevergreen";
+$year="2021";
+$credits="Producer, Vocal Producer, Songwriting";
+$link="https://open.spotify.com/artist/6OZUW5rayDiueFqI3woM1Q?si=wJRsEwg8SvKe4632j8Mi0w&nd=1";
+include 'disco_item.php'; 
+?>
+
+<?php 
 $artist="Jessica Pearson and the East Wind";
 $album="On The Line";
 $year="2021";
